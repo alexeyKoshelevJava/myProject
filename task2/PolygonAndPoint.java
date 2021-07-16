@@ -17,16 +17,7 @@ public class PolygonAndPoint {
         String fileNameWithPointCoordinates = args[1];
         float[][] coordinatePoints = getArrayPointCoordinates(fileNameWithPointCoordinates);
 
-        for (int i = 0; i< coordinatePoints.length; i++){
-            for (int e = 0; e < coordinatePoints[0].length;e++){
-                System.out.println(coordinatePoints[i][e]);
-            }
-        }
-        for (int i = 0; i< polygonCoordinates.length; i++){
-            for (int e = 0; e <polygonCoordinates[0].length;e++){
-                System.out.println(polygonCoordinates[i][e]);
-            }
-        }
+
 
 
         GeometryFactory factory = polygonCreator.getFactory();
